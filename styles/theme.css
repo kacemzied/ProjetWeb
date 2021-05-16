@@ -1,0 +1,52 @@
+.shopItemRow{
+    width: 100%;
+    border: 1px solid black;
+}  
+.actionsTd{
+    width: 100px;
+}
+table {  
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+td{
+    border: 1px solid #242725;
+}
+th {
+    border: 1px solid #c4c4c4;
+    background-color: #242725;
+    height: 45px;
+    color: white;
+}
+th, td {
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+}
+
+tr{background-color: #f2f2f2}
+
+.deleteBtn{
+    background-color: #bd2222;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    height: 35px;
+    width: 35px;
+    padding: 5px 5px;
+    margin: 1px 1px;
+    border: none;
+    cursor: pointer; 
+    opacity: 0.9;
+}
+
+.quantityInput{
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+}
+
+.productNameColumn{
+    width: 30%;
+}
